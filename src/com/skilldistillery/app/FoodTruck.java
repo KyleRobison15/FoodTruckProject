@@ -41,4 +41,12 @@ public class FoodTruck {
 		this.rating = rating;
 	}
 
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("FoodTruck [truckId=").append(truckId).append(", name=").append(name).append(", foodType=")
+				.append(foodType).append(", rating=").append(rating).append("]");
+		return builder.toString();
+	}
+
 }

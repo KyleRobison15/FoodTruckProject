@@ -27,8 +27,10 @@ public class FoodTruckApp {
 			usingMenu = foodTruckApp.chooseAgain(menuChoice);
 			
 			if (menuChoice == 1) {
-				//call method for listing food trucks (create this)
-				//then will iterate through new array calling the FoodTruck classes displayFoodTruck method (will need to create this)
+				for(int i = 0; i < userTrucks.length; i++) {
+					System.out.println(userTrucks[i].toString());
+				}
+				System.out.println();
 	
 			}
 			
