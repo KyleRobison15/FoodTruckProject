@@ -2,7 +2,7 @@ package com.skilldistillery.app;
 
 public class FoodTruck {
 
-	private static int nextTruckId;
+	private static int nextTruckId = 1;
 	private int truckId;
 	private String name;
 	private String foodType;
