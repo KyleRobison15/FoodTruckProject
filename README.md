@@ -2,9 +2,9 @@
 ### Overview of Program
 This program allows a user to enter the name, food type, and rating of up to 5 food trucks.
 The user can then choose from different menu options:
-*Display all the food trucks
-*View the average rating of the food trucks
-*View the food truck with the highest rating
+1. Display all the food trucks
+2. View the average rating of the food trucks
+3. View the food truck with the highest rating
 
 ### Object Oriented Programming (OOP)
 This program focuses on OOP by using a FoodTruck class that serves as the blueprint for creating new FoodTruck objects.
