@@ -82,7 +82,7 @@ public class FoodTruckApp {
 				System.out.println();
 
 				// Set rating field
-				System.out.print("What overall rating (out of 10) would you give this food truck? ");
+				System.out.print("What overall rating would you give this food truck? ");
 				rating = input.nextInt();
 				input.nextLine();
 				foodTruck.setRating(rating);
